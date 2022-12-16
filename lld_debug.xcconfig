@@ -1,0 +1,3 @@
+// Use fast linker if available.
+OTHER_LDFLAGS = $(inherited) -ObjC -Wl --ld-path=$(SRCROOT)/ld64.lld
+// OTHER_CFLAGS = $(inherited) -fno-objc-msgsend-selector-stubs
